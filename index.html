@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentric Promociones</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+        <nav >
+           <a href="https://dentric.mx/" target="_blank"><img src="images/logo_dentric.png" alt="" class="logo_ortho"></a> 
+           
+            <ul class="menu" id="menu">
+                <li><a href="#inicio" class="link">Inicio</a></li>
+                <li><a href="#todo" class="link">Promociones</a></li>
+                <li><a href="#ubicacion" class="link">Ubicación</a></li>
+                <li><a href="#contacto" class="link">Contacto</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=523318801085" target="_blank" class="link">Llámanos</a></li>
+              
+
+            </ul>
+            <i class="fas fa-bars abrir_menu" id="abrir_menu"></i>
+        </nav>
+    </header>
+    <div class="slide_contenedor"id="inicio" >
+        <div class="miSlider fade">
+          <img src="images/inicio_uno.png" alt="">
+     
+          
+   </div>
+        <div class="miSlider fade">
+          <img src="images/inicio_dos.png" alt="">
+          
+         
+   </div>
+        <div class="miSlider fade">
+          <img src="images/inicio_uno.png" alt="">
+        
+          
+   </div>
+   <div class="miSlider fade">
+    <img src="images/inicio_dos.png" alt="">
+  
+ 
+</div>
+ 
+
+ 
+
+        <div class="direcciones">
+          <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+          <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+           <span class="barra active" onclick="posicionSlide(1)"></span>
+           <span class="barra" onclick="posicionSlide(2)"></span>
+           <span class="barra" onclick="posicionSlide(3)"></span>
+           <span class="barra" onclick="posicionSlide(4)"></span>
+          
+        
+
+        </div>
+
+      </div>
+    
+     
+ 
+    <main>
+        <div class="main_especialidades" id="todo">
+            <h2>NUESTRAS PROMOCIONES</h2>
+            <div class="engloba_todo" style="transform: rotateX(0deg);">
+              <div class="card" >
+                <div class="card__inner" id="endodoncia">
+                   <img src="images/efecto_uno.png" alt="" class="img_voltea">
+                   <p>Haz click para ver más información</p>
+                 
+                  </div>
+                  
+                
+              
+                <div class="card__inner" id="ortondoncia">
+                  <img src="images/efecto_dos.png" alt="" class="img_voltea">
+                    <p>Haz click para ver más información</p>
+                
+                  
+                </div>
+                <div class="card__inner" id="odontopediatria">
+                  <img src="images/efecto_tres.png" alt="" class="img_voltea">
+                    <p>Haz click para ver más información</p>
+             
+               
+                </div>
+                <div class="card__inner" id="implantes">
+                
+                  <img src="images/efecto_cuatro.png" alt="" class="img_voltea">
+                    <p>Haz click para ver más información</p>
+                 
+                </div>
+                <div class="card__inner" id="extracciones">
+                   <img src="images/efecto_cinco.png" alt=""  class="img_voltea" >
+                     <p>Haz click para ver más información</p>
+                  </div>
+    
+                  <div class="card__inner" id="periodoncia">
+                    <img src="images/efecto_seis.png" alt=""  class="img_voltea" >
+                      <p>Haz click para ver más información</p>
+                   </div>
+                 
+                
+              </div>
+      
+              <div class="descripcion_especialidades" style="display: none;">
+               
+                <div id="endo" class="description_specialities " style="display: none;" >
+                  <i class="fas fa-times-circle cerrar" id="cerrarUno"></i>
+                  <img src="images/icono_dentric.png" alt="">
+                  <h2><span>BRACKETS CONVECIONALES</span></h2>
+                <ul>
+                    <li><a href="#">Alinea tus dientes</a></li>
+                    <li><a href="#">Material resistente</a></li>
+                    <li><a href="#">Precio económico</a></li>
+                    <li><a href="#">Corrige tu mordida</a></li>
+                </ul>
+                  <p>En Dentric contamos con los mejores especialistas en Ortodoncia y el tratamiento adecuado para ti. </p>
+                  <p>Agenda tu cita hoy mismo y no te pierdas nuestras promociones especiales en brackets.</p>
+                 
+              </div>
+              <div id="orto" class="description_specialities" style="display: none;">
+                <i class="fas fa-times-circle cerrar" id="cerrarDos"></i>
+                <img src="images/icono_dentric.png" alt="">
+                <h2><span>Brackets Estéticos <br> $6,999</span></h2>
+                 <ul>
+                     <li><a href="#">Brackets casi imperceptibles a la vista</a></li>
+                     <li><a href="#">No cambia de color con el tiempo</a></li>
+                     <li><a href="#">Tiempos de tratamiento iguales a los tratamientos con brackets convecionales.</a></li>
+                     <li><a href="#">Se puede usar en adultos y en adolescentes.</a></li>
+                 </ul>
+                 <p>Alinea tus dientes y corrige tu mordida de forma estética, rápida y eficaz.
+                     Acude a tu sucursal más cercana.
+                 </p>
+              </div>
+              <div id="cirmax" class="description_specialities" style="display: none;">
+                <i class="fas fa-times-circle cerrar" id="cerrarTres"></i>
+                <img src="images/icono_dentric.png" alt="">
+                  <h2><span>Implantes Dentales con Rehabilitación <br> $18,999</span></h2>
+                  <ul>
+                    <li><a href="#">Recupera tu sonrisa.</a></li>
+                    <li><a href="#">Rehabilitación completa.</a></li>
+                    <li><a href="#">Incluye coronas dentales.</a></li>
+                    <li><a href="#">Hasta 12 meses sin interes.</a></li>
+                </ul>
+                <p>Contáctanos y acude a tu sucursal más cercana.</p>
+            
+              </div>
+              <div id="imp" class="description_specialities" style="display: none;">
+                <i class="fas fa-times-circle cerrar" id="cerrarCuatro"></i>
+                <img src="images/icono_dentric.png" alt="">
+                  <h2><span>Resinas Estéticas <br>$799</span></h2>
+                  <ul>
+                      <li><a href="">Las resinas dentales son restauraciones estéticas de los dientes, que se pueden utilizar  en dientes dañados o cariados en las cuales el material que se utiliza es precisamente la resina.</a></li>
+                      <li><a href="">Ésta se trabaja al color del diente, por lo que el resultado es una restauración cosmética y agradable.</a></li>
+                  </ul>
+                  <p>Lo último en tecnología dental  en manos de especialistas certificados.</p>
+                  <p>Agenda tu cita sin costo hoy mismo.</p>
+              </div>
+              <div id="odon" class="description_specialities" style="display: none;">
+                <i class="fas fa-times-circle cerrar" id="cerrarCinco"></i>
+                <img src="images/icono_dentric.png" alt="">
+                  <h2><span>Cirugía del 3er Molar <br>$1,799</span></h2>
+                  <p>Olvídate de tus muelas del juicio y los posibles problemas futuros que puedan ocasionarte</p>
+                  <p>Agenda tu cita hoy , no esperes a que sea muy tarde.</p>
+              </div>
+              <div id="perio" class="description_specialities" style="display: none;">
+                <i class="fas fa-times-circle cerrar" id="cerrarSeis"></i>
+                <img src="images/icono_dentric.png" alt="">
+                  <h2><span>Brackets Autoligado <br> $8,999</span></h2>
+                  <p>Los brackets de autoligado son una de las técnicas más novedosas y efectivas.</p>
+                    <ul>
+                        <li><a href="#">Ofrecen ventajas como un "auto ajuste".</a></li>
+                        <li><a href="#">Tratemientos en menor tiempo.</a></li>
+                        <li><a href="#">Menos molestias a dolor en cada ajuste.</a></li>
+                        <li><a href="#">Menos visitas al Dentista.</a></li>
+                        <p>Contáctanos para una asesoría personalizada, tenemos el tratamiento adecuado para ti.
+                            Agenda tu cita hoy.
+                        </p>
+                    </ul>
+                  <p></p>
+              </div>
+              </div>
+      
+            </div>
+            
+            </div>
+        <div class="ubicaciones" id="ubicacion">
+            <h2>Nuestras ubicaciones</h2>
+            <div class="container_ubicaciones">
+                <div class="item_ubicacion">
+                    <h4>Avenida Conchita 2719-5, Loma Bonita, Zapopan.</h4>
+                    <div class="item_mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.8515714987225!2d-103.4028844855991!3d20.634906006483785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428adb44a18b8a3%3A0x17cc0f4fdea7d59a!2sAv%20Conchita%202719-5%2C%20Loma%20Bonita%2C%2045086%20Zapopan%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1649097030282!5m2!1ses-419!2smx" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+                <div class="item_ubicacion">
+                    <h4>Prol. Mariano Otero 2831, El Fortín, Zapopan.</h4>
+                    <div class="item_mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.085811414234!2d-103.46643048559923!3d20.625358806804037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ab91b891d78f%3A0x9c280c84e13ba1f8!2sProl.%20Mariano%20Otero%202831%2C%20El%20Fort%C3%ADn%2C%2045066%20Zapopan%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1649097091248!5m2!1ses-419!2smx" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      <div class="flotante">
+        <a href="tel:3324716300" target="_blank"><img src="images/phone.png" alt=""></a>
+        <a href="https://api.whatsapp.com/send?phone=523318801085" target="_blank"><img src="images/whats.png" alt=""></a>
+      </div>
+
+    </main>
+    <footer id="contacto">
+    <h2>Contáctanos</h2>
+    <h5>Para una mejor atención contacta a un especialista</h5>
+    <div class="item_footer">
+        <div class="item_icono">
+          <p>© Todos los derechos reservados a Dentric 2022</p>
+          <p>Desing By <a href="https://dentarios.com.mx/programacion.php" target="_blank">Agencia de Marketing Digital Dentarios</a></p>
+        </div>
+        <div class="item_icono">
+         <img src="images/logo_azul.png" alt="">
+        </div>
+        <div class="item_icono">
+         <a href="https://m.facebook.com/dentricguadalajara/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+         <a href="tel:3324716300" target="_blank"><i class="fa-solid fa-phone"></i></a>
+         <a href="https://api.whatsapp.com/send?phone=523318801085" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+         <a href="mailto:info.dentric@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+         <a href="https://www.instagram.com/dentricgdl/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    </div>
+
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/card.js"></script>
+    
+</body>
+</html>
